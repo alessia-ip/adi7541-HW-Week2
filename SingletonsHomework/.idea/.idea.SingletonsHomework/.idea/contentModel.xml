@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="colourChange.cs" t="Include" />
           <e p="gamemanager.cs" t="Include" />
+          <e p="levelEnd.cs" t="Include" />
           <e p="playercontroller.cs" t="Include" />
         </e>
       </e>

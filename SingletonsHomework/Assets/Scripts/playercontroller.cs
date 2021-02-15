@@ -13,9 +13,9 @@ public class playercontroller : MonoBehaviour
     private Vector2 worldPos;
     private Vector3 newPos;
 
-    private Color purple = new Color(194, 0, 174);
-    private Color orange = new Color(237, 95, 0);
-    private Color green = new Color(6, 176, 0);
+    private Color purple = new Color(170/255f, 0, 217/255f);
+    private Color orange = new Color(237/255f, 95/255f, 0);
+    private Color green = new Color(6/255f, 176/255f, 0);
 
     public enum pColor {white, red, blue, yellow, purple, orange, green, black};
 

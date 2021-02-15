@@ -16,9 +16,11 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/levelEnd.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/gamemanager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/playercontroller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/colourChange.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/playercontroller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/levelEnd.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oUCWdMskUkj8t6K3fDT704c7mc" />
@@ -63,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613331817532</updated>
       <workItem from="1613331825057" duration="3180000" />
-      <workItem from="1613348917311" duration="4889000" />
+      <workItem from="1613348917311" duration="7576000" />
     </task>
     <servers />
   </component>

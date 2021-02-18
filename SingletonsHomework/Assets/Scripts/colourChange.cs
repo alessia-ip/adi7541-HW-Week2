@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class colourChange : MonoBehaviour
 {
+
+    //an enum to define potential colour  options that a capsule can be that the layer can use
     public enum colChoice
     {
         red,
@@ -12,13 +14,16 @@ public class colourChange : MonoBehaviour
         blue
     };
 
+    //the player controller
     private playercontroller playerObj;
     
+    //the default choice is red, but this is just the colour enum selector
     public colChoice col = colChoice.red;
     
     private void OnTriggerEnter(Collider other)
     {
-        
+    
+        //when the player enters the trigger, execute the 'newCol' function
         if (other.tag == "Player")
         {
             Debug.Log("HIT");
@@ -28,9 +33,10 @@ public class colourChange : MonoBehaviour
         
     }
 
+    
     void newCol()
     {
-
+        //switch statement to change the player's colour based on the current col and the capsule colour
         switch (col)
         {
             case colChoice.red:

@@ -9,6 +9,7 @@ public class levelEnd : MonoBehaviour
     public playercontroller.pColor endCol;
     private MeshRenderer rend;
     
+    //colors that needed to be defined
     private Color purple = new Color(170/255f, 0, 217/255f);
     private Color orange = new Color(237/255f, 95/255f, 0);
     private Color green = new Color(6/255f, 176/255f, 0);
@@ -20,7 +21,8 @@ public class levelEnd : MonoBehaviour
 
     private void Update()
     {
-
+        
+        //this is to set the end level trigger colour (using the player colour enum)
      switch (endCol)
         {
             case playercontroller.pColor.white:
@@ -51,8 +53,12 @@ public class levelEnd : MonoBehaviour
         }
     }
     
+    
     private void OnTriggerEnter(Collider other)
-    {
+    {   
+        //if the player touches the end zone, and the player colour matches the level end colour, execute this
+        //increment the level number by one
+        //then use that incremented number to go to the next level
         if (other.tag == "Player" && other.GetComponent<playercontroller>().playerColor == endCol)
         {
             gamemanager.levelNum++;

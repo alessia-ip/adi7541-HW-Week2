@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f4dfcea-86bb-43e5-b77d-a414f65c6985" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SingletonsHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SingletonsHomework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelThree.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelThree.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/backtoblack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/backtoblack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/backtoblack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/backtoblack.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/gamemanager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/gamemanager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/levelEnd.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/levelEnd.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/playercontroller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/playercontroller.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +70,7 @@
       <updated>1613331817532</updated>
       <workItem from="1613331825057" duration="3180000" />
       <workItem from="1613348917311" duration="8435000" />
-      <workItem from="1613618229419" duration="4358000" />
+      <workItem from="1613618229419" duration="5063000" />
     </task>
     <servers />
   </component>

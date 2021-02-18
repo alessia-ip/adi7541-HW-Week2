@@ -22,6 +22,8 @@ public class gamemanager : MonoBehaviour
     
     void Awake()
     {
+
+        //set the reload point 
         player = GameObject.FindWithTag("Player");
         playerPos = player.transform.position;
         OrigCol = player.GetComponent<playercontroller>().playerColor;
@@ -41,6 +43,11 @@ public class gamemanager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     //the function to go to the next level, based on the scene index
